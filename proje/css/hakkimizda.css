@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-size: 1.3rem;
+    font-family: 'Segoe UI',sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.top-bar{
+    background-color: rgb(39, 59, 245);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin: 0;
+    padding: 0;
+    flex-grow: 0;
+}
+.menu{
+    flex-grow: 1;
+}
+.itemler{
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.item a{
+    color: white;
+    text-decoration: none;
+}
+.content{
+    background-color: rgb(22, 101, 175);
+    border-radius: 100px;
+    width: 50%;
+    margin: auto;
+}
+.content h2{
+    font-size: 3rem;
+    margin-top: 10%;
+    text-align: center;
+}
+.content-item p{
+    padding: 0 3rem;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+.container{
+    font-size: 1.8rem;
+    display: flex;
+}
+.container-misyon{
+    background-color: aqua;
+    text-align: justify;
+    width: 100%;
+    padding: 5rem;
+}
+.container-misyon h2{
+    text-align: center;
+}
+.container-vizyon{
+    background-color: rgb(19, 150, 190);
+    text-align: justify;
+    width: 100%;
+    padding: 5rem
+}
+.container-vizyon h2{
+    text-align: center;
+}

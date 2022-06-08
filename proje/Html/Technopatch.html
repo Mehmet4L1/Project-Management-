@@ -5,39 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TecHNoPatcH</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/techno.css">
 </head>
 <body><!--Nav start-->
-    <nav>
-        <ul>
-            <a href="anasayfa.html">
-                <li>Anasayfa</li>
-            </a>
-            <a href="iletisim.html">
-                <li>İletişim</li>
-            </a>
-            <a href="hakkimizda.html">
-                <li>Hakkımızda</li>
-            </a>
-            
-            <a href="girisyap.html">
-                <li>Giriş Yap</li>
-            </a>
-            <a href="Technopatch.html">
-                <li> TecHNoPatcH</li>
-            </a>
-            
-        </ul>
+    <div class="top-bar">
+        <div class="logo"> <img src="../images/t-logo.jpg" alt="Logo" style="width:20%; height:25%"></div>
+        <nav class="menu">
+            <ul class="itemler">
+                <li class="item"><a href="anasayfa.html">Anasayfa</a></li>
+                <li class="item"><a href="iletisim.html">İletişim</a></li>
+                <li class="item"><a href="hakkimizda.html">Hakkımızda</a></li>
+                <li class="item"><a href="girisyap.html">Giriş Yap</a></li>
+                <li class="item"><a href="Technopatch.html">TecHNoPatcH</a></li>
+            </ul>
+        </nav>
+    </div>
     </nav> <!--nav end-->
     <header>
-        <h1>Çalıştırmak istediğiniz cihazı seçiniz</h1>
+        <h1 class="baslık">Çalıştırmak istediğiniz cihazı seçiniz</h1>
     </header>
     <form action="#">
         <fieldset>
-            <legend>Klima</legend>
+            <legend >Klima</legend>
                 <input type="radio" name="klima" value="klima" id="klima">
                 <label for="klima">Klimayı Çalıştırın</label><br><br>
-                <select name="derece" id="derece">
+                <select class="klima" name="derece" id="derece">
                     <option value="derece">18°C</option>
                     <option value="derece">19°C</option>
                     <option value="derece">20°C</option>
@@ -53,7 +45,7 @@
         <legend>Temizlik Robotu</legend>
             <input type="radio" name="robot" value="robot" id="robot">
             <label for="robot">Temizlik Robotunu Çalıştırın</label><br><br>
-            <select name="dakika" id="dakika">
+            <select class="klima" name="dakika" id="dakika">
                 <option value="dakika">5dk</option>
                 <option value="dakika">10dk</option>
                 <option value="dakika">15dk</option>
@@ -63,7 +55,7 @@
         <legend>Mikrodalga</legend>   
             <input type="radio" name="Mikro" value="Mikro" id="Mikro">
             <label for="Mikro">Mikrodalgayı Çalıştırın</label><br><br>
-            <select name="ısı" id="ısı">
+            <select class="klima" name="ısı" id="ısı">
                 <option value="ısı">150°C</option>
                 <option value="ısı">160°C</option>
                 <option value="ısı">170°C</option>
@@ -76,7 +68,7 @@
             </select>
     </fieldset><br><br>
         
-        <input type="button" onclick="alert('Komutlarınız TecHNoPatcH e gönderildi')" value="Çalıştır">
+        <input type="button" onclick="alert('Komutlarınız TecHNoPatcH e gönderildi')" value="Çalıştır" class="klima">
     </form>
 
 </body>

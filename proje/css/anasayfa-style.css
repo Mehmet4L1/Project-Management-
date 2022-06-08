@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background:url('https://fr.shopping.rakuten.com/photo/1904984532.jpg/') no-repeat;
+    background-size: 40% 60%;
+    background-position: 80% 65%;
+    font-size: 1.3rem;
+    font-family: 'Segoe UI',sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.top-bar{
+    background-color: rgb(39, 59, 245);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin: 0;
+    padding: 0;
+    flex-grow: 0;
+}
+.menu{
+    flex-grow: 1;
+}
+.itemler{
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.item a{
+    color: white;
+    text-decoration: none;
+}
+.banner-text{
+    font-size: 2rem;
+    font-family: inherit;
+    padding: 10% 0;
+}
+.banner-text-item{
+    width: 70%;
+    margin: auto;
+}
+.banner-text-item p{
+    font-size: 2rem;
+    line-height: 1.5;
+    margin-top: 10%;
+}
+.banner-text-item h1{
+    color: rgb(39, 59, 245);
+}
+.banner-text-item h2{
+    color: rgb(39, 59, 245);
+    margin-top: 10%;
+}
+.form{
+    margin-top:10%;
+    padding: 5%;
+}
+.form h2{
+    color:rgb(39, 59, 245) ;
+    font-size: 3rem;
+    text-align: center;
+}
+.form-action{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+}
+.form input, .form textarea{
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: .8rem;
+    outline: none;
+    border: 1px solid rgb(39, 59, 245);
+}
+.form input:hover, .form textarea:hover,.form input:focus, .form textarea:focus,.form button:hover, .form button:focus{
+    box-shadow: -5px 5px 10px 0 rgb(39, 59, 245);
+}
+.form button{
+    font-size: 1.2rem;
+    border: 2px solid rgb(39, 59, 245);
+    padding: .5rem;
+    margin-top: 0.5rem;
+    width: 50%;
+    margin: auto;
+    outline: none;
+    border-radius: 10px;
+}

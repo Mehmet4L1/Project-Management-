@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    
+    background:url('https://fr.shopping.rakuten.com/photo/1904984532.jpg/') no-repeat;
+    background-size: 40% 85%;
+    background-position: 55% 65%;
+    font-size: 1.3rem;
+    font-family: 'Segoe UI',sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.top-bar{
+    background-color: rgb(39, 59, 245);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin: 0;
+    padding: 0;
+    flex-grow: 0;
+}
+.menu{
+    flex-grow: 1;
+}
+.itemler{
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.item a{
+    color: white;
+    text-decoration: none;
+}
+.giris{
+    margin: 15% 10%;
+}
+.girdi{
+    font-size: 1.2rem;
+}
+.form{
+    font-size: 1.3rem;
+    font-style: italic;
+}
+.buton{
+    margin-top: 1rem;
+    font-size: 1.3rem;
+}
+.buton:hover,.buton:focus{
+    box-shadow: -5px 5px 10px 0 rgb(42, 42, 223);
+}
